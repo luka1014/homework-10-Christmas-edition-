@@ -10,5 +10,10 @@
     .burger_icon{
         display: block;
     }
+      /* section1  */
+
+      .section1a{
+        padding-top: 80px;
+    }
    
 }

@@ -69,3 +69,33 @@ header {
 
 
 }
+
+/* section1  */
+.section1{
+    height: 640px;
+    background-image: url("../images/cover\ \(2\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.section1a{
+    display: flex;
+    column-gap: 32px;
+    justify-content: center;
+    padding-top: 120px;
+}
+.section1_span{
+
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 56px;
+    letter-spacing: 0.1px;
+    
+}
+.arrow{
+    width: 56px;
+height: 56px;
+}
+

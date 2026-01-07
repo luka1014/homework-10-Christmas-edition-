@@ -7,5 +7,10 @@
     .header_nav{
         display: none;
     }
+    /* section1  */
+
+    .section1a{
+        padding-top: 100px;
+    }
 
 }
