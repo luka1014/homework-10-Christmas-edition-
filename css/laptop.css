@@ -1,0 +1,11 @@
+@media(max-width:1300px){
+    /* header  */
+    header {
+        padding: 18px 64px;
+       
+    }
+    .header_nav{
+        display: none;
+    }
+
+}
