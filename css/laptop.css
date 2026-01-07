@@ -12,5 +12,14 @@
     .section1a{
         padding-top: 100px;
     }
+    /* section2  */
+    
+    .sec2_article{
+        overflow-x: scroll;
+    }
+    .sec2_cards{
+        flex: 1 0 300px;
+      }
+      
 
 }
