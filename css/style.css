@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
     font-family: "Inter", sans-serif;
 }
@@ -12,9 +19,15 @@ body {
 header {
     background-color: #311500;
     padding: 18px 94px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .burger_icon {
@@ -22,8 +35,12 @@ header {
 }
 
 .header_ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 36px;
+    -webkit-column-gap: 36px;
+       -moz-column-gap: 36px;
+            column-gap: 36px;
 }
 
 .inactive {
@@ -82,9 +99,15 @@ header {
 }
 
 .section1a {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 32px;
-    justify-content: center;
+    -webkit-column-gap: 32px;
+       -moz-column-gap: 32px;
+            column-gap: 32px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top: 120px;
 }
 
@@ -109,18 +132,28 @@ header {
     padding-bottom: 94px;
 
     background-color: #DEE2EB;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     row-gap: 56px;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .sec2_img {
 
     width: 100%;
     height: 215px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 
 
 }
@@ -148,8 +181,12 @@ header {
 }
 
 .sec2_article {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 20px;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
 }
 
 .sec2_cards {
@@ -157,8 +194,13 @@ header {
     width: 280px;
     height: 290px;
     padding: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     row-gap: 12px;
 }
 
@@ -168,9 +210,15 @@ header {
 }
 
 .texti {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 24px;
 }
 
@@ -209,27 +257,46 @@ footer {
 }
 
 .footer_nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content:space-between;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
 }
 .footer_ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     row-gap: 8px;
 }
 
 .footer_ul4{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .footer_ul_ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     row-gap: 8px;
 }
 .footer_ul4{
     padding-top: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 16px;
+    -webkit-column-gap: 16px;
+       -moz-column-gap: 16px;
+            column-gap: 16px;
 }
-
 

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media(max-width:1300px){
     /* header  */
     header {
@@ -18,7 +25,9 @@
         overflow-x: scroll;
     }
     .sec2_cards{
-        flex: 1 0 300px;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 0 300px;
+                flex: 1 0 300px;
       }
 
       /* footer  */
