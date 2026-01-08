@@ -20,6 +20,13 @@
     .sec2_cards{
         flex: 1 0 300px;
       }
+
+      /* footer  */
+
+      footer {
+        padding: 64px 358px;
+        
+    }
       
 
 }

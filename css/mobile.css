@@ -21,4 +21,11 @@
         height: 40px;
         }
 
+        /* footer  */
+        .footer_nav{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+        }
+
 }

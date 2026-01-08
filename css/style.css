@@ -106,6 +106,8 @@ header {
 /* section2  */
 .section2 {
     padding-top: 94px;
+    padding-bottom: 94px;
+
     background-color: #DEE2EB;
     display: flex;
     flex-direction: column;
@@ -179,3 +181,55 @@ header {
 }
 
 /* vici rom ragac ar gamodis mgoni arc sqroli mushaobs magram ver vxdebi rashia problema  */
+
+
+/* footer  */
+
+footer {
+    background-color: #311500;
+    padding: 64px 371px;
+    
+}
+
+.footer_a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #D9D9D9;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+.footer_p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #D9D9D9;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.footer_nav{
+    display: flex;
+    justify-content:space-between;
+}
+.footer_ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.footer_ul4{
+    display: flex;
+}
+.footer_ul_ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.footer_ul4{
+    padding-top: 8px;
+    display: flex;
+    column-gap: 16px;
+}
+
+
